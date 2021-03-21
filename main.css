@@ -1,0 +1,59 @@
+html{
+    font-family: 'Syne Mono', monospace;
+}
+body{
+    background-color: rgba(166, 241, 182, 0.932);
+}
+h2,h4{
+    text-align: center;
+}
+#container{
+    background-color: rgb(145, 186, 187);
+    color: cornsilk;
+}
+h2{
+    padding-top: 1%;
+    font-size: xx-large;
+}
+h4{
+    margin: auto;
+    padding-bottom: 1%;
+    font-size: larger;
+}
+.select{
+    width: 7%;
+}
+#name{
+    margin-top: 1%;
+}
+.ip{
+    width: 23%;
+}
+.select, .ip{
+    margin-left: 5%;
+    margin-bottom: 1.6%;
+    border-bottom: solid 4px darkblue;
+    border-right: solid 4px darkblue;
+}
+span{
+    margin-right: 5%;
+    
+}
+form{
+    text-align: center;
+    border-left: solid 5px black;
+    border-right: solid 5px black;
+}
+button{
+    width: 142px;
+    height: 38px;
+    background-color: #29a7a7;
+    color: white;
+    font-size: unset;
+    font-family: 'Syne Mono', monospace;
+}
+#message{
+    margin-top: 0.5%;
+    text-align: center;
+    color: rgb(9, 134, 9);
+}
