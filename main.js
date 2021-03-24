@@ -29,7 +29,7 @@ btn.addEventListener('click', function (e) {
 
 });
 function updateDB(arr) {
-    db.collection("Users").doc(arr[0]).add({
+    db.collection("Users").add({
         Name: arr[0],
         Phase: arr[1],
         Block: arr[2],
